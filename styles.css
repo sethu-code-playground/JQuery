@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+
+.big-list{
+    font-size: 6rem;
+    color:darkviolet;
+    font-family: cursive;
+}
+
+.center{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+option, .labelstyle{
+    color: chocolate;
+    font-family: Verdana;
+    display: unset;
+}

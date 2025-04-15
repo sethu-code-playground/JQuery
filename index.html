@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="h1">Hello!</h1>
+    <h1 class="h1">ABC</h1>
+    <h2 class="h2">Welcome</h2>
+    <h3>Sawadeeka</h3>
+    <button class="btn-primary">Click Me</button>
+    <button class="btn-primary">Click Me</button>
+    <button class="btn-primary">Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button> <br>
+
+    <p id="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas, dolorum corporis
+        consequuntur optio voluptate voluptatum quam sequi aliquid voluptas magnam dolore ipsam
+        doloribus nisi quidem pariatur perferendis sunt tenetur!</p> 
+
+    <div>This is a dummy paragraph chkjgkhgkagygegxagsgcygeyghgshjgdhgjye</div>
+
+    <img src="dice5.png" alt="image of drum">
+    <a href="https://www.google.com">Google</a>
+    
+    <label for="browser" class="labelstyle" id="label">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+        
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+
+
+    <ul class="ulist">
+        <li class="uli-1">Item 1</li>
+        <li class="uli-2">Item 2</li>
+    </ul> <br>
+
+    <ol class="olist">
+        <li class="oli-1">A.</li>
+        <li class="oli-2">B.</li>
+    </ol>
+    <a href="https://www.yahoo.com" class="anchor">Click Me</a>
+    <p class="ptag">Lorem ipsum dolor sit, amet consectetur adipisicihkjh hiuhuhihi</p>
+
+    <input type="text" class="text">
+    <button class="hide" value="hide">Hide</button>
+    <button class="show" value="show">Show</button>
+
+
+    <h2 class="changing-text">Text</h2>
+
+    
+
+
+    <!-- jQuery's CDN should be placed above the script tag of javascript file, if written below index.js then while the browser processes the html script from top to bottom the script
+     file will be processed before even the jQuery. So jQuery will not be detected. -->
+    <!-- If jQuery's cdn is used in head tag along with index.js then it'llalso not work because our js tries to read the content even before the browser is ready.
+    To solve this use ready() method -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
